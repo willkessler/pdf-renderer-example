@@ -8,7 +8,7 @@ Then:
 
 ``` shell
 docker build -f Dockerfile -t pdf-renderer .
-docker run -v .:/tmp pdf-renderer
+docker run -v $(pwd):/tmp pdf-renderer
 ```
 
 This will run `index.js` which opens up the IRS W9 form (`fw9.pdf`)
