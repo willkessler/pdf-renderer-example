@@ -1,8 +1,8 @@
-# pdf-fill-form example
+# Fill PDF Form: Example code
 
-### Building and running this example of pdf-fill-form
+### Building and running this example of using `pdf-fill-form`
 
-Get docker set up.
+First, get docker set up on your local rig. 
 
 Then:
 

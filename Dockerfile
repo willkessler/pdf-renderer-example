@@ -12,6 +12,6 @@ COPY write_w9.js .
 RUN chmod a+x write_w9.js index.js
 
 RUN npm install
-CMD node index.js && node ./write_w9.js
+CMD node index.js && echo " " && echo "Now running pdf filling example" && echo " " && node ./write_w9.js
 
 
